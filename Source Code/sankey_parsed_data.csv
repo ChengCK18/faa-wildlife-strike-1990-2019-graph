@@ -1,0 +1,41 @@
+source,target,value
+Approach,Dawn,141
+Approach,Day,5582
+Approach,Dusk,494
+Approach,Night,5768
+Arrival,Day,1
+Arrival,Night,2
+Climb,Dawn,308
+Climb,Day,2822
+Climb,Dusk,223
+Climb,Night,1120
+Descent,Dawn,2
+Descent,Day,102
+Descent,Dusk,6
+Descent,Night,226
+Landing Roll,Dawn,33
+Landing Roll,Day,2114
+Landing Roll,Dusk,157
+Landing Roll,Night,287
+Local,Dawn,3
+Local,Day,15
+Local,Dusk,2
+Local,Night,7
+Take-off Run,Dawn,195
+Take-off Run,Day,2495
+Take-off Run,Dusk,150
+Take-off Run,Night,180
+Taxi,Day,7
+Taxi,Night,2
+Dawn,No Cloud,345
+Dawn,Overcast,168
+Dawn,Some Cloud,170
+Day,No Cloud,6895
+Day,Overcast,2005
+Day,Some Cloud,4263
+Dusk,No Cloud,502
+Dusk,Overcast,133
+Dusk,Some Cloud,398
+Night,No Cloud,4929
+Night,Overcast,721
+Night,Some Cloud,1956

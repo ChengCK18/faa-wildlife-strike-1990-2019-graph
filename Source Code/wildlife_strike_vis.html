@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<meta charset="utf-8">
+	<title>Mass Murder by Iron Birds in US</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="wildlife_strike_vis.css">
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="sankey.js"></script>
+
+<body>
+	<div id="title_and_navigation_panel">
+		<audio id="tamago">
+			<source src="tamago.mp3" type="audio/mpeg">
+		</audio>
+		<h1>Mass <strong id="murder_text">Murder</strong> by Iron Birds in <strong id="us_text" onclick="tamago()">US</strong></h1>
+		<div id="visualization_title_panel">
+			<div id="visualization_title_1">
+			<h2><strong class="visualization_text">Sankey Diagram</strong> derived from phase of flight, time of day,<br>and weather condition</h2>
+			</div>
+			<div id="visualization_title_2">
+			<h2><strong class="visualization_text">Scatterplot</strong> derived from altitude, speed and damage severity</h2>
+			</div>
+		</div>
+		
+	</div>
+
+	<div id="graph_panel" >
+		
+		<svg id='the_graph'></svg>
+		<svg id='the_graph2'></svg>
+		
+		<div id="filter_panel">
+			<h1>Filter for Scatterplot</h1><br>
+			<h2><strong>Operator</strong></h2>
+			<input type="checkbox" id="americanA" value="americanA" checked>
+			<label for="americanA">American Airlines</label><br> 
+			<input type="checkbox" id="deltaA" value="deltaA" checked>
+			<label for="deltaA">Delta Airlines</label><br> 
+			<input type="checkbox" id="southwestA" value="southwestA" checked>
+			<label for="southwestA">Southwest Airlines</label><br> 
+			<input type="checkbox" id="unitedA" value="unitedA" checked>
+			<label for="unitedA">United Airlines</label><br><br>
+			
+			<h2><strong>Time of Day</strong></h2> 
+			<input type="checkbox" id="day" value="day" checked>
+			<label for="day">Day</label><br> 
+			<input type="checkbox" id="night" value="night" checked>
+			<label for="night">Night</label><br> 
+			<input type="checkbox" id="dusk" value="dusk" checked>
+			<label for="dusk">Dusk</label><br> 
+			<input type="checkbox" id="dawn" value="dawn" checked>
+			<label for="dawn">Dawn</label><br><br>
+			
+			
+			
+			<button onclick="filter_function()">Update</button>
+		</div>
+		<script src="wildlife_strike_vis.js"></script>
+
+	</div>
+	
+	
+
+	
+</body>
+	
+
